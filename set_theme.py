@@ -8,7 +8,7 @@ from IPython.core.display import display, HTML
 
 # OneDork
 # For original style: url_style = "https://raw.githubusercontent.com/dunovank/jupyter-themes/master/jupyterthemes/styles/compiled/onedork.css"
-url_style = "https://gist.githubusercontent.com/tbmc/f528e8e39909d5f02e77234a3ae4f1e7/raw/bb4ac0ff6e2e64a46196bb878210325c44d98193/onedork.css"
+url_style = "https://goo.gl/wYuXtc"
 # Download CSS
 style = urlopen(url_style).read()
 
