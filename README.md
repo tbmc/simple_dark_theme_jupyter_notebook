@@ -1,8 +1,8 @@
 # simple_dark_theme_jupyter_notebook
-Provide a dark theme for Jupyter Notebook and small borders
+Provide a dark theme for Jupyter Notebook and small borders without any installation.
 
 # How to use
-Just add this in one of your cell and run it !
+Just run this in one of your cell !
 
 ### Python 2
 ```
