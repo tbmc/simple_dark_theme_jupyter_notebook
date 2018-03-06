@@ -23,5 +23,8 @@ display(HTML("""
     .end_space { min-height: 800px !important; } /* eliminate bottom gray */
     .input .input_prompt.prompt { min-width: 0; } /* reduce size of the In [n] */
     div.output_area pre { font-size: 16px !important; padding-left: 10px; }
+    
+    /* Remove end space at the end of the page */
+    #site { height: 100%; }
 </style>
 """))
