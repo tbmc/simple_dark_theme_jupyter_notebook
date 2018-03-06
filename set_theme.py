@@ -7,7 +7,8 @@ except ImportError:
 from IPython.core.display import display, HTML
 
 # OneDork
-url_style = "https://goo.gl/wYuXtc"
+url_style = "https://raw.githubusercontent.com/dunovank/jupyter-themes/master/jupyterthemes/styles/compiled/onedork.css"
+
 # Download CSS
 style = urlopen(url_style).read()
 
