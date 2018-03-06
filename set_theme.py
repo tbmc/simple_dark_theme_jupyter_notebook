@@ -12,20 +12,18 @@ url_style = "https://raw.githubusercontent.com/dunovank/jupyter-themes/master/ju
 # Download CSS
 style = urlopen(url_style).read()
 
-# Apply CSS
-display(HTML("<style>%s</style>" % style))
+# Same for override CSS
+url_override = "https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/override_style.css"
+style_override = urlopen(url_override).read()
 
-# Remove borders ! It's better for side by side documents
+# Apply CSS
 display(HTML("""
 <style>
-    /* Modifications to notebook format  */
-    #notebook { padding-top: 0px !important; } /* eliminate top gray */
-    .container { width:100% !important;     } /* eliminate side gray */
-    .end_space { min-height: 800px !important; } /* eliminate bottom gray */
-    .input .input_prompt.prompt { min-width: 0; } /* reduce size of the In [n] */
-    div.output_area pre { font-size: 16px !important; padding-left: 10px; }
+
+    %s
     
-    /* Remove end space at the end of the page */
-    #site { height: 100%; }
+    %s
+
 </style>
-"""))
+""" % (style, style_override)))
+
