@@ -15,6 +15,8 @@ from urllib.request import urlopen; exec(urlopen("https://goo.gl/39F9vD").read()
 ```
 
 ### Use light theme
+The light theme which is the same of the default Jupyter theme but borders.
+
 Replace URL with
 ```
 https://goo.gl/3Z75Ln
