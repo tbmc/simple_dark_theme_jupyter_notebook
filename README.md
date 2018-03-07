@@ -15,6 +15,9 @@ from urllib.request import urlopen; exec(urlopen("https://goo.gl/39F9vD").read()
 ```
 
 ### Use light theme
-Replace URL with `https://goo.gl/3Z75Ln`
+Replace URL with
+```
+https://goo.gl/3Z75Ln
+```
 
 
