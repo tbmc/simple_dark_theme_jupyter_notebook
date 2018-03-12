@@ -27,7 +27,3 @@ Short URL are here to be more readable, but you can use the full url
 + Dark theme: [https://goo.gl/39F9vD](https://goo.gl/39F9vD) = [https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/set_theme.py](https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/set_theme.py)
 + Light theme: [https://goo.gl/3Z75Ln](https://goo.gl/3Z75Ln) = [https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/set_theme_light.py](https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/set_theme_light.py)
 
-
-# Troubleshooting
-If you have the menu that disappear, rerun the cell in which the theme code is.
-
