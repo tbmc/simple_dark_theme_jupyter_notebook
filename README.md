@@ -23,7 +23,7 @@ https://goo.gl/3Z75Ln
 ```
 
 ### URL utils.py
-[https://goo.gl/6MnqED](https://goo.gl/6MnqED)[https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/utils.py](https://raw.githubusercontent.com/tbmc/simple_dark_theme_jupyter_notebook/master/utils.py)
+[https://goo.gl/6MnqED](https://goo.gl/6MnqED)
 
 # Long URL
 Short URL are here to be more readable, but you can use the full url
