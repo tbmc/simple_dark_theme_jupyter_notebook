@@ -59,7 +59,7 @@ class NotebookLoader(object):
         # extra work to ensure that magics that would affect the user_ns
         # actually affect the notebook module's ns
         save_user_ns = self.shell.user_ns
-        self.shell.user_ns = mod_.__dict__
+        self.shell.user_ns = mod.__dict__
 
         try:
             for cell in nb.cells:
@@ -88,7 +88,7 @@ class NotebookFinder(object):
             key = os.path.sep.join(path)
         if key not in self.loaders:
             self.loaders[key] = NotebookLoader(path)
-        return self.lodaders[key]
+        return self.loaders[key]
 
 
 # Register NotebookFinder with sys.meta_path
